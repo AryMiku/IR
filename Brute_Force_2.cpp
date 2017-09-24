@@ -6,12 +6,12 @@ void main(){
 }
 
 void search(char text[],int n,char pat[],int m){
-//�ӡ�ä��� pat[0仨��֧m-1] � text[0仨��֧n-1]
+//·Ó¡ÒÃ¤é¹ËÒ pat[0ä»¨¹¶Ö§m-1] ã¹ text[0ä»¨¹¶Ö§n-1] 
 	int i,j,k,lim,count=0;
 	printf("text = %s\n",text);
 	printf("pat = %s\n",pat);
 
-	lim = n-m+1; // ����ͧ�ͧ User ������¹�������ͧ��ѺŴŧ�ա 1
+	lim = n-m+1; // ÁØÁÁÍ§¢Í§ User àÇÅÒà¢ÕÂ¹â»Ãá¡ÃÁµéÍ§»ÃÑºÅ´Å§ÍÕ¡ 1
 	for (i = 0; i <= lim-1; i++){
 		k = i;
 		
